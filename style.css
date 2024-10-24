@@ -2017,3 +2017,37 @@ footer {
         margin-top: 100px;  
     }
 }
+
+  .youtube-widget {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    width: 600px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .close-widget {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .close-widget:hover {
+    background-color: darkred;
+  }
+
+  .widget-content iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+  }
