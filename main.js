@@ -20,3 +20,33 @@ document.getElementById('live-view-btn').addEventListener('click', function () {
     document.getElementById('youtube-widget').style.display = 'none';
     document.getElementById('youtube-iframe').src = ""; // Clear the video source to stop the video
   });
+
+
+  document.getElementById('live-view-btn3').addEventListener('click', function () {
+    // Display the widget
+    document.getElementById('youtube-widget').style.display = 'block';
+    // Set the YouTube Shorts video embed URL in the iframe
+    document.getElementById('youtube-iframe').src = "https://www.youtube.com/embed/gaqj79zOYR0?si=WfnyhoEWb-_RQ5xe";
+});
+
+// Function to hide video widget and clear URL
+document.getElementById('close-widget3').addEventListener('click', function () {
+    // Hide the widget
+    document.getElementById('youtube-widget').style.display = 'none';
+    
+    // Clear the src attribute to stop playback
+    document.getElementById('youtube-iframe').src = "";
+});
+
+
+
+
+document.getElementById('live-view-btn4').addEventListener('click', function () {
+  document.getElementById('youtube-widget').style.display = 'block';
+  document.getElementById('youtube-iframe').src = "https://www.youtube.com/embed/mTq7nOmaNs0?si=EkI3gt2YBcMCBM9l"; // Set video source when opened
+});
+
+document.getElementById('close-widget4').addEventListener('click', function () {
+  document.getElementById('youtube-widget').style.display = 'none';
+  document.getElementById('youtube-iframe').src = ""; // Clear the video source to stop the video
+});

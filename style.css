@@ -2051,3 +2051,25 @@ footer {
     height: 315px;
     border-radius: 8px;
   }
+
+  /* Add spacing between each project box */
+.project-box-wrapper {
+    margin-bottom: 20px; /* Adjust the value as needed for spacing */
+}
+
+/* Optional: Add padding within each project box for more separation */
+.project-box {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Add spacing between columns if there are multiple items in a row */
+.project-boxes-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between items in the same row */
+}
+
+/* Make sure the section container has padding for spacing around the content */
+.projects-section-container {
+    padding: 40px 20px; /* Adjust for desired padding */
+}
